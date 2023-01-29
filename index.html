@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haybeden Gerçek Üstü Bir Oyun</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-ui">
+        <p class="problem"></p>
+
+        <form action="" class="our-form">
+            <input type="text" class="our-field" autocomplete="off">
+            <button>Gönder</button>
+        </form>
+        <p class="status">Oyunu kazanmak için <span class="points-needed">10</span> soruyu doğru cevaplaman gerekiyor. Ayrıca <span
+                class="mistakes-allowed">2</span> soruyu yanlış cevaplama hakkın var.</p>
+
+        <div class="progress">
+            <div class="boxes">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+            <div class="progress-inner"></div>
+        </div>
+    </div>
+
+    <div class="overlay">
+        <div class="overlay-inner">
+            <div class="end-video">
+                <iframe class="end-video-inner" width="600" height="400" src=""></iframe>                
+            </div>
+            <p class="end-message"></p>
+            <button class="reset-button">Yeniden Dene</button>
+        </div>
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
