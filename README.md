@@ -1,5 +1,5 @@
 # Math Game
- Simple math game built with Javascript, HTML and CSS
+ Simple math game built with Javascript, HTML and CSS.
  
  Some screenshots from game:
  
